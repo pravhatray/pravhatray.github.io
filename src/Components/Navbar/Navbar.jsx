@@ -1,0 +1,37 @@
+import React from 'react'
+import styles from "./Nav.module.css"
+import { Box, IconButton,  Text, useColorMode } from "@chakra-ui/react"
+import {FaSun,FaMoon} from "react-icons/fa"
+
+const Navbar = () => {
+    const { colorMode, toggleColorMode } = useColorMode()
+    const isDark = colorMode === "dark"
+  return (
+    <>
+    
+    <Box className={styles.main}>
+        <Box className={styles.left}>
+                <Box className={styles.name}>Web Developer</Box>
+                           
+
+        </Box>
+        <Box className={styles.right}>
+            <Box className={styles.list}>
+                <ul>
+                    <li>Home</li>
+                    <li>Tech-Stack</li>
+                    <li>Project-Blogs</li>
+                    <li>Contact Me</li> 
+                </ul>
+            </Box>
+            <IconButton size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
+        </Box>
+
+    </Box>
+    
+    
+    </>
+  )
+}
+
+export default Navbar
