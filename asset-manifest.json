@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.df3f7af7.css",
-    "main.js": "/static/js/main.e1e207ac.js",
+    "main.css": "/static/css/main.9f5f4c22.css",
+    "main.js": "/static/js/main.fba189ea.js",
+    "static/media/Pravhat-Ray_Resume.pdf": "/static/media/Pravhat-Ray_Resume.1e880faf3345340ae8bb.pdf",
+    "static/media/Prav_img.jpeg": "/static/media/Prav_img.623b3de5ec1789e0cdf3.jpeg",
     "index.html": "/index.html",
-    "main.df3f7af7.css.map": "/static/css/main.df3f7af7.css.map",
-    "main.e1e207ac.js.map": "/static/js/main.e1e207ac.js.map"
+    "main.9f5f4c22.css.map": "/static/css/main.9f5f4c22.css.map",
+    "main.fba189ea.js.map": "/static/js/main.fba189ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.df3f7af7.css",
-    "static/js/main.e1e207ac.js"
+    "static/css/main.9f5f4c22.css",
+    "static/js/main.fba189ea.js"
   ]
 }
