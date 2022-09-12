@@ -2,13 +2,15 @@
 
 import About from './Components/Home/About';
 import Navbar from './Components/Navbar/Navbar';
-// import Profile from './Container/Home/Profile';
+import Tech from './Components/Tech_stack/Tech';
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
        <Navbar/>
        <About/>
+     
     </div>
   );
 }

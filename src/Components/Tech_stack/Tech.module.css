@@ -1,0 +1,34 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+   gap: 30px;
+   width: 70%;
+   margin: auto;
+   padding-left: 10px;
+   
+}
+
+.cards>div>h1{
+    font-size:xx-large;
+    text-align: center;
+}
+.cards>div>div>img{
+   
+    height: 210px;
+     object-fit: fill;
+     border-radius:10px ;
+     position: relative;
+}
+
+.text{
+    margin-top: -20px;
+    color: blue;
+    position: relative;
+    visibility:visible
+}
+/* .text:hover{
+    margin-top: -20px;
+    color: blue;
+    position: absolute;
+    visibility:visible
+} */

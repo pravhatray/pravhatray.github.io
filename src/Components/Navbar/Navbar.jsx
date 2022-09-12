@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Nav.module.css"
-import { Box, IconButton,  Text, useColorMode } from "@chakra-ui/react"
+import { Box, IconButton,  useColorMode } from "@chakra-ui/react"
 import {FaSun,FaMoon} from "react-icons/fa"
 
 const Navbar = () => {
@@ -11,7 +11,11 @@ const Navbar = () => {
     
     <Box className={styles.main}>
         <Box className={styles.left}>
-                <Box className={styles.name}>Web Developer</Box>
+                <Box className={styles.name}>
+             
+                    Web Developer
+                    
+                    </Box>
                            
 
         </Box>
