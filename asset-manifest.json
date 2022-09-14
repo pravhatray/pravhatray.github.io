@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f5f4c22.css",
-    "main.js": "/static/js/main.fba189ea.js",
+    "main.css": "/static/css/main.17bd2e36.css",
+    "main.js": "/static/js/main.366ac8e6.js",
+    "static/media/outlook1.png": "/static/media/outlook1.292604f1d014214b7193.png",
+    "static/media/unsplash3.png": "/static/media/unsplash3.3d4e35b03025df1209d8.png",
+    "static/media/unsplash2.png": "/static/media/unsplash2.6037577dab4a261ef44f.png",
+    "static/media/outlook2.png": "/static/media/outlook2.e4b38bda6ac1cfb5e1db.png",
+    "static/media/unsplash1.png": "/static/media/unsplash1.097d9a1eb1d03b50af43.png",
+    "static/media/outlook3.png": "/static/media/outlook3.8730c1610b68ae7ba53e.png",
+    "static/media/pharm1.png": "/static/media/pharm1.432d60b24be14be3894c.png",
+    "static/media/pharm2.png": "/static/media/pharm2.312310c24b3a041c8f50.png",
+    "static/media/pharm3.png": "/static/media/pharm3.9da2bdb597c0d6394c9e.png",
     "static/media/Pravhat-Ray_Resume.pdf": "/static/media/Pravhat-Ray_Resume.1e880faf3345340ae8bb.pdf",
     "static/media/Prav_img.jpeg": "/static/media/Prav_img.623b3de5ec1789e0cdf3.jpeg",
     "index.html": "/index.html",
-    "main.9f5f4c22.css.map": "/static/css/main.9f5f4c22.css.map",
-    "main.fba189ea.js.map": "/static/js/main.fba189ea.js.map"
+    "main.17bd2e36.css.map": "/static/css/main.17bd2e36.css.map",
+    "main.366ac8e6.js.map": "/static/js/main.366ac8e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5f4c22.css",
-    "static/js/main.fba189ea.js"
+    "static/css/main.17bd2e36.css",
+    "static/js/main.366ac8e6.js"
   ]
 }
