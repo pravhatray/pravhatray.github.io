@@ -1,25 +1,27 @@
 .intro{
     display: flex;
     height: 77vh;
-    width: 95%;
-    margin: auto;
+    /* width: 95%;
+    margin: auto; */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 10px;
     margin-bottom: 30px;
+    
+    /* background-image: url(https://www.teahub.io/photos/full/184-1844982_1080p-space-background-gif.jpg); */
+    background-image: url(https://thumbs.gfycat.com/CarefulFalseComet-size_restricted.gif);
 }
 .left{
     display: flex;
     position: relative;
     flex-direction: column;
     gap: 2;
-    max-width: 55%;
+    width: 55%;
 }
 .name{
     display: flex;
     flex-direction:column;
     gap: 1rem;
-   
     padding-left: 13%;
 }
 .name>:nth-child(2)
@@ -48,7 +50,6 @@
   margin-top:20px;
   gap: 2rem;
   padding-left: 13%;
- 
 }
 
    .icons {
@@ -76,4 +77,42 @@
   width: 400px;
 border-color: burlywood;
 border-radius: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    height: 38rem;
+    margin-bottom: 10px;
+    
+  }
+.info{
+  display: none;
+}
+.typical>h1{
+  font-weight:normal;
+  font-size: 1rem;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+  width: 100%;
+}
+.hire{
+  margin-right: 100%;
+}
+  .hire_btn{
+    visibility: hidden;
+  }
+
+.right{
+  width: 90%;
+}
+  .my_img{
+   
+width: 500px;
+  border-radius: 15pxpx;
+  }
 }

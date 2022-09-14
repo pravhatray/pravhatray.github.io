@@ -1,6 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Tech.module.css'
 import {motion} from "framer-motion"
+import Aos from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const techy=[
   {
@@ -48,24 +51,19 @@ const techy=[
 
 const Tech = () => {
   
-  const [isHovering, setIsHovering] = useState(false);
-let count=1;
 
-  const handleMouseOver = () => {
-    setIsHovering(true);
-
-
-  };
-
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
+useEffect(()=>{
+  Aos.init();
+},[])
+  
   const transition = {
     duration: 1,
     type: "spring",
   };
   return (
     <>
+
+<div data-aos="zoom-in">
     <div className={styles.techs}>
         <div className={styles.cards}>
         {
@@ -73,7 +71,7 @@ let count=1;
           return(
             <>
             
-          <div   onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+          <div >
             <motion.div
            
               whileHover={{scale:1.2}}
@@ -81,7 +79,7 @@ let count=1;
                 <img src={a.icon} alt="icons" />
                
               </motion.div>
-              {/* {isHovering && <h2 className={styles.text}>{a.title}</h2>} */}
+          
           </div>
 
              </>
@@ -91,7 +89,7 @@ let count=1;
         </div>
 
     </div>
-    
+    </div>
 
     
       </>

@@ -25,23 +25,23 @@ const About = () => {
                 
             </div>
                 <span>Hello,I am Pravhat Ray</span>
-                <span>
+                <span className={styles.typical}>
                     <h1>
                             <Typical
                             loop={Infinity}
+                          
                             steps={[
                                 "A Full Stack Web Developer",
                                 1500,
-                                "A MERN Stack Web Developer",
+                                "A MERN Stack Developer",
                                 1500,
-                                "ReactJS | Javascript | ChakraUI | HTML | CSS",
-                                1500,
+                             
                             ]
                             }
                             />
                         </h1>
                 </span>
-                <span>
+                <span className={styles.info}>
                     Frontend Developer with high level of problem solving skills.
                     I have experience of 1200+ hours of coding and solved 100+ DSA questions.
                     Frontend Developer with high level of problem solving skills.
@@ -49,7 +49,7 @@ const About = () => {
                 </span>
             </div>
             <div className={styles.hire}>
-            <Button width={"150px"} textColor={"black"} backgroundColor={'aqua'}>Hire</Button>
+            <Button className={styles.hire_btn} width={"150px"} textColor={"black"} backgroundColor={'aqua'}>Hire</Button>
             <a href={Resume} download style={{textDecoration:"none"}}>
             <Button width={"150px"} textColor={"black"} backgroundColor={'aqua'}>Resume</Button>
             </a>

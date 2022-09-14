@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Nav.module.css"
-import { Box, IconButton,  useColorMode } from "@chakra-ui/react"
+import { Box, Button, IconButton,  useColorMode } from "@chakra-ui/react"
 import {FaSun,FaMoon} from "react-icons/fa"
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
     
-    <Box className={styles.main}>
+    <Box  className={styles.main}>
         <Box className={styles.left}>
                 <Box className={styles.name}>
              
@@ -25,9 +25,10 @@ const Navbar = () => {
                     <li>Home</li>
                     <li>Tech-Stack</li>
                     <li>Project-Blogs</li>
-                    <li>Contact Me</li> 
+                   
                 </ul>
             </Box>
+            <Button>Contact me</Button>
             <IconButton size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
         </Box>
 
