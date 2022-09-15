@@ -3,7 +3,7 @@ import styles from './Tech.module.css'
 import {motion} from "framer-motion"
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
-
+import { SimpleGrid} from "@chakra-ui/react"
 
 const techy=[
   {
@@ -63,9 +63,11 @@ useEffect(()=>{
   return (
     <>
 
-<div data-aos="zoom-in">
-    <div className={styles.techs}>
-        <div className={styles.cards}>
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+    
+        <SimpleGrid name='tech-stack' columns={[2,2,3,4]} className={styles.cards}>
         {
         techy.map((a)=>{
           return(
@@ -73,10 +75,11 @@ useEffect(()=>{
             
           <div >
             <motion.div
-           
               whileHover={{scale:1.2}}
               transition={transition}>
-                <img src={a.icon} alt="icons" />
+                <img src={a.icon}
+               
+                alt="icons" />
                
               </motion.div>
           
@@ -86,9 +89,9 @@ useEffect(()=>{
           )
         })
       }
-        </div>
+        </SimpleGrid>
 
-    </div>
+ 
     </div>
 
     

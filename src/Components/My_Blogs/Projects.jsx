@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "./Pro.module.css"
 import {FaGithub,FaLink} from "react-icons/fa"
 import { Carousel } from 'react-responsive-carousel';
@@ -13,12 +13,20 @@ import unsplash3 from "./unspash_img/unsplash3.png"
 import pharm1 from "./pharm_img/pharm1.png"
 import pharm2 from "./pharm_img/pharm2.png"
 import pharm3 from "./pharm_img/pharm3.png"
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'; 
 export const Projects = () => {
+
+useEffect(()=>{
+  Aos.init();
+},[])
+
   return (
     <>
-      <SimpleGrid w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"  boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
-       
+     <Text fontSize={"xx-large"} textAlign='center' color="aqua">MY PROJECTS</Text>
+      <SimpleGrid name='projects' w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"  boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
+      <Box data-aos="fade-up"
+       data-aos-duration="1500">
 
 <Box w="95%"  p={3}>
             <Carousel
@@ -50,6 +58,11 @@ export const Projects = () => {
               </Text>
             </div>
             </Box>
+            </Box> 
+
+<Box data-aos="fade-up"
+ data-aos-duration="1500">
+
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
           <div>
@@ -75,12 +88,13 @@ export const Projects = () => {
             </Flex>
            
             </Box >
-
+            </Box>
       </SimpleGrid>
 
       <SimpleGrid w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
        
-
+      <div data-aos="fade-up"
+       data-aos-duration="1500">  
 <Box w="95%"  p={3}>
             <Carousel
               showThumbs={false}
@@ -111,6 +125,9 @@ export const Projects = () => {
               </Text>
             </div>
             </Box>
+</div>
+            <div data-aos="fade-up"
+             data-aos-duration="1500">
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
           <div>
@@ -133,11 +150,12 @@ export const Projects = () => {
             </Flex>
            
             </Box >
-
+            </div>
       </SimpleGrid>
 
       <SimpleGrid w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
-       
+      <div data-aos="fade-up"
+       data-aos-duration="1500">
 
 <Box w="95%"  p={3}>
             <Carousel
@@ -169,6 +187,9 @@ export const Projects = () => {
               </Text>
             </div>
             </Box>
+</div>
+            <div data-aos="fade-up"
+             data-aos-duration="1500">            
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
           <div>
@@ -191,8 +212,8 @@ export const Projects = () => {
             </Flex>
            
             </Box >
-
-      </SimpleGrid>
+</div>
+      </SimpleGrid> 
 
 
     </>
