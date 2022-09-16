@@ -1,0 +1,47 @@
+.contact_form{
+    padding: 0 3rem 0 3rem;
+    height: auto;
+}
+.awesome{
+    margin-bottom: "-20px";
+}
+.c_right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c_right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+Textarea{
+    height: 4rem!important;
+}
+
+.c_blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact_form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c_right .user{
+        width: 16rem;
+    }
+
+}   

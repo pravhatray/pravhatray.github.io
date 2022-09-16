@@ -1,13 +1,12 @@
 .intro{
     
     height: auto;
-  
-    border-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 5%;
+    margin-top: 4.4%;
     margin-bottom: 30px;
-    padding-bottom: 5%;
-     /* background-image: url(https://c.tenor.com/UttC4AITYR4AAAAd/full-stack-developer.gif);  */
+    padding-bottom: 5%;    
      background-image: url(https://thumbs.gfycat.com/CarefulFalseComet-size_restricted.gif); 
 }
 

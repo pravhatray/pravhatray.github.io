@@ -20,10 +20,10 @@ const Navbar = () => {
                     <Box className={styles.name}>
                         <Flex>
                             <span>
-                                <Text color={'yellow'}>DEV</Text>
+                                <Text color={'yellow'}>PRAV</Text>
                             </span>
                             <span>
-                                <Text color={'blue'}>ELOPER</Text>
+                                <Text color={'#075985 '}>HAT</Text>
                             </span>
                         </Flex>
 

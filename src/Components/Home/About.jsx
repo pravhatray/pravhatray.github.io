@@ -14,10 +14,10 @@ const About = () => {
     <>
    
  
-    <SimpleGrid columns={[1,1,2,2]} name='Navbar' mb={'7%'} className={styles.intro}>
-    <Show below='md'>
+    <SimpleGrid columns={[1,1,1,2]} name='Navbar' mb={'5%'} className={styles.intro}>
+    <Show below='lg'>
 
-<Box>
+<Box mt={'10%'}>
 <motion.div   whileHover={{scale:1.1}} className={styles.right}>
 <img className={styles.my_img} src={myImg} alt="my_Image" />
 </motion.div>
@@ -34,7 +34,7 @@ const About = () => {
             <IconButton size='lg'  icon={<FaFacebook/>} />
                 
             </div>
-                <Text fontWeight='bold' fontSize='2rem' color={'teal'}> Hello,I am Pravhat Ray</Text>
+                <Text fontWeight='bold' fontSize='2rem' color={'#06b6d4 '}> Hello,I am Pravhat Ray</Text>
                 <Hide below='md'>
                       <Text fontWeight='normal' fontSize='2.5rem' color={'yellow'} className={styles.typical}>
                     <h1>
@@ -54,7 +54,7 @@ const About = () => {
                 </Text>
                 </Hide>
               
-                <Text fontWeight='normal' fontSize='1.2rem' color={'teal'} className={styles.info}>
+                <Text fontWeight='normal' fontSize='1.2rem' color={'#06b6d4 '} className={styles.info}>
                     Frontend Developer with high level of problem solving skills.
                     I have experience of 1200+ hours of coding and solved 100+ DSA questions.
                     Frontend Developer with high level of problem solving skills.
@@ -76,7 +76,7 @@ const About = () => {
             </div>
             
         </Box>
-        <Hide below='md'>
+        <Hide below='lg'>
 
              <Box>
             <motion.div   whileHover={{scale:1.1}} className={styles.right}>
