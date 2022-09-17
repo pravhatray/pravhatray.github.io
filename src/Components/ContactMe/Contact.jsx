@@ -2,8 +2,8 @@
 import React, {  useState,useEffect } from "react";
 import styles from "./Contact.module.css";
 import emailjs from "@emailjs/browser";
-import { Box, Button, Input, SimpleGrid, Textarea } from "@chakra-ui/react";
-
+import { Box, Button, Hide, Image, Input, SimpleGrid, Text, Textarea } from "@chakra-ui/react";
+import bg from "./img/bg1.gif"
 const Contact = () => {
 
   const [values, setValues] = useState({
@@ -14,36 +14,6 @@ const Contact = () => {
   });
   const [status, setStatus] = useState('');
 
-
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .send(
-  //       "service_n0iwy9m",
-  //       "template_68x8x5v",
-  //      values,
-  //       "CfVPNUitRuynd2t3g"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log("Success!!",result);
-  //         setValues({
-  //           fullName: '',
-  //           email: '',
-  //           role: '',
-  //           message: ''
-  //         });
-  //         setStatus('SUCCESS');
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
- 
- 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.send('service_n0iwy9m', 'template_68x8x5v', values, 'Y4tJDYFr57fRjw8o3')
@@ -76,26 +46,36 @@ const Contact = () => {
     }))
   }
   return (
-    <SimpleGrid columns={[1,1,2]}  gap={4} className={styles.contact_form} id="contact">
+    <>
+    <SimpleGrid columns={[1,1,1,2]}  mb={1} gap={4} className={styles.contact_form} id="contact">
       {/* left side copy and paste from work section */}
-  
-        <Box className={styles.awesome}>
-        
-          <span style={{color:  'teal'}}>Get in Touch</span>
-          <span>Contact me</span>
-          <Box
-            className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></Box>
+         <Hide below="md" >
+        <Box   >
+            <Image src={bg} borderTopRightRadius="10px"  borderBottomRightRadius="10px" alt="bg" />
+
         </Box>
+        </Hide>
      
       {/* right side form */}
-      <Box className={styles.c_right}>
+      <Box  width="100%" m="auto" >
       {status && renderAlert()}
-        <form  onSubmit={handleSubmit}>
+        <form  onSubmit={handleSubmit} >
+          
+           
+                    <Text fontSize={"xl"} fontWeight="600">Let's Colaborate</Text>
+                <br/>
+             
+              
+
           <Input value={values.fullName} classname={styles.user}     onChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="Employer or Company name"/>
-          <Input value={values.email} classname={styles.user}     onChange={handleChange} label="E-Mail" name="email" type="email" placeholder="gmail@example.com"/>
-          <Textarea value={values.message}  classname={styles.user}    onChange={handleChange} label="Your message here" name="message" placeholder="Your message"/>
+          <br/>
+          <br/>
+             <Input value={values.email} classname={styles.user}     onChange={handleChange} label="E-Mail" name="email" type="email" placeholder="abc@email.com"/>
+            <br/>
+            <br/>
+          <Textarea value={values.message}  classname={styles.user}    onChange={handleChange} label="Your message here" name="message" placeholder="Your message please"/>
+            <br/>
+            <br/>
           <Button type="submit" value="Send" className={styles.button}>Send Email</Button>
          
           <Box
@@ -105,6 +85,11 @@ const Contact = () => {
         </form>
       </Box>
     </SimpleGrid>
+
+
+{/* <Box  h='1100px'  className={styles.bg}>
+</Box> */}
+</>
   );
 };
 const renderAlert = () => (

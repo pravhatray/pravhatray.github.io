@@ -23,15 +23,15 @@ useEffect(()=>{
 
   return (
     <>
-     <Text fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>MY PROJECTS</Text>
+     <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>MY PROJECTS</Text>
       <SimpleGrid name='projects'
        h="auto"
-        w="95%"
+        w={["97%","95%","90%","90%"]}
       
          m="auto"
          p={3}
           columns={[1,1,2]} 
-          mt={9} 
+          mt={"20px"} 
           borderRadius="7px" 
            boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
       <Box data-aos="fade-up"
@@ -101,7 +101,7 @@ useEffect(()=>{
       </SimpleGrid>
 
       <SimpleGrid  h="auto"
- p={3} w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
+ p={3}  w={["97%","95%","90%","90%"]} m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
        
       <div data-aos="fade-up"
        data-aos-duration="1500">  
@@ -164,7 +164,7 @@ useEffect(()=>{
       </SimpleGrid>
 
       <SimpleGrid  h="auto"
- p={3} w="95%" m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
+ p={3} w={["97%","95%","90%","90%"]} m="auto" columns={[1,1,2]} mt={9} borderRadius="7px"   boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
       <div data-aos="fade-up"
        data-aos-duration="1500">
 

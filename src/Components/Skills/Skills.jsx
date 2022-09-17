@@ -27,81 +27,99 @@ import 'aos/dist/aos.css';
 const front = [
   {
     id: 1,
-    icon: html
+    icon: html,
+    title:"HTML"
   },
   {
     id: 2,
-    icon: css
+    icon: css,
+    title:"CSS"
   },
   {
     id: 3,
-    icon: javascript
+    icon: javascript,
+    title:"JAVASCRIPT"
   },
   {
     id: 4,
-    icon: rect
+    icon: rect,
+    title:"REACT JS"
   },
   {
     id: 5,
-    icon: chakra
+    icon: chakra,
+    title:"CHAKRA UI"
   },
   {
     id: 6,
-    icon: type
+    icon: type,
+    title:"TYPE SCRIPT"
   },
 ]
 
 const back = [
   {
     id: 1,
-    icon: mongodb
+    icon: mongodb,
+    title:"MONGO DB"
   },
   {
     id: 2,
-    icon: express
+    icon: express,
+    title:"EXPRESS"
   },
   {
     id: 3,
-    icon: nodejs
+    icon: nodejs,
+    title:'NODE JS'
   },
   {
     id: 4,
-    icon: reducs
+    icon: reducs,
+    title:"REDUX"
   },
 ]
 
 const tools = [
   {
     id: 1,
-    icon: git
+    icon: git,
+    title:"GIT"
   },
   {
     id: 2,
-    icon: github
+    icon: github,
+    title:"GITHUB"
   },
   {
     id: 3,
-    icon: heroku
+    icon: heroku,
+    title:"HEROKU"
   },
   {
     id: 4,
-    icon: netlify
+    icon: netlify,
+    title:"NETLIFY"
   },
   {
     id: 5,
-    icon: vercel
+    icon: vercel,
+    title:"VERCEL"
   },
   {
     id: 6,
-    icon: npm
+    icon: npm,
+    title:"NPM"
   },
   {
     id: 7,
-    icon: json
+    icon: json,
+    title:"JSON-SERVER"
   },
   {
     id: 8,
-    icon: postman
+    icon: postman,
+    title:"POSTMAN"
   },
 ]
 
@@ -124,9 +142,11 @@ const Skills = () => {
                   <>
                   <Box data-aos="fade-up"
                     data-aos-duration="1500">
-                    <Box p='9px' w={'120px'} h={'120px'} bg='black' m={'auto'} borderRadius='10px' boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
+                    <Box p='9px'   w={'120px'} h={'120px'} bg='black' m={'auto'} borderRadius='10px'  mt={4} boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
 
-                      <Image border='4px solid yellow' m={"auto"} w={'100px'} src={f.icon} alt="icons" borderRadius='50%' />
+                      <Image border='4px solid yellow' m={"auto"} w={'100px'} src={f.icon}    alt="icons" borderRadius='50%' />
+                      <Text mt={3} fontSize={'l'} color='sky' textAlign={"center"}>{f.title}</Text>
+                   
                     </Box>
                     </Box>
                   </>
@@ -146,9 +166,10 @@ const Skills = () => {
                   <>
                   <Box data-aos="fade-up"
                     data-aos-duration="1500">
-                    <Box p='6px' w={'120px'} h={'120px'} bg='black' m={'auto'} borderRadius='10px' boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
+                    <Box p='6px' w={'120px'} h={'120px'} bg='black' m={'auto'} borderRadius='10px' mt={4} boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
 
                       <Image border='4px solid yellow' m={"auto"} w={'100px'} src={f.icon} alt="icons" borderRadius='50%' />
+                      <Text mt={3} fontSize={'l'} color='sky' textAlign={"center"}>{f.title}</Text>
                     </Box>
                     </Box>
                   </>
@@ -161,7 +182,7 @@ const Skills = () => {
       </SimpleGrid>
 
       {/* tools=============tooolss */}
-      <Box mb={'7%'} mt={'9%'} className={styles.front}>
+      <Box mb={'7%'} mt={['70px','70px','50px','50px']} className={styles.front}>
         <Text fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>TOOLS</Text>
         <SimpleGrid rowGap='20px' m='20px' gap={'-50px'} columns={[2, 2, 3, 4]}>
           {
@@ -170,9 +191,11 @@ const Skills = () => {
                 <>
                   <Box data-aos="fade-up"
                     data-aos-duration="1500">
-                    <Box p='9px' w={'120px'} h={'120px'} bg='rgb(2, 132, 199)' m={'auto'} borderRadius='10px' boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
+                    <Box p='9px' w={'120px'} h={'120px'} bg='rgb(2, 132, 199)' m={'auto'} mt={4} borderRadius='10px' boxShadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' >
 
                       <Image border='4px solid black' m={"auto"} w={'100px'} src={f.icon} alt="icons" borderRadius='50%' />
+                    
+                      <Text mt={3} fontSize={'l'} color='sky' textAlign={"center"}>{f.title}</Text>
                     </Box>
                   </Box>
                 </>
