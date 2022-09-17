@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d4d8cc7.css",
-    "main.js": "/static/js/main.cf10a60c.js",
+    "main.js": "/static/js/main.b3f81ca6.js",
     "static/media/outlook1.png": "/static/media/outlook1.292604f1d014214b7193.png",
     "static/media/unsplash3.png": "/static/media/unsplash3.3d4e35b03025df1209d8.png",
     "static/media/unsplash2.png": "/static/media/unsplash2.6037577dab4a261ef44f.png",
@@ -25,10 +25,10 @@
     "static/media/type.png": "/static/media/type.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
     "main.6d4d8cc7.css.map": "/static/css/main.6d4d8cc7.css.map",
-    "main.cf10a60c.js.map": "/static/js/main.cf10a60c.js.map"
+    "main.b3f81ca6.js.map": "/static/js/main.b3f81ca6.js.map"
   },
   "entrypoints": [
     "static/css/main.6d4d8cc7.css",
-    "static/js/main.cf10a60c.js"
+    "static/js/main.b3f81ca6.js"
   ]
 }
