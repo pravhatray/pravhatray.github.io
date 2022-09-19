@@ -93,7 +93,11 @@ const Contact = () => {
 
       <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
          <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaPhone />}/>
+         <Link href="tel:7002403482">
          <Text textDecoration={"underline"}>+91 7002403482</Text>
+         
+         </Link>
+         
       </Flex>
      
 
