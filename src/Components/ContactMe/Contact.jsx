@@ -69,13 +69,13 @@ const Contact = () => {
              
               
 
-          <Input value={values.fullName} classname={styles.user}     onChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="Employer or Company name"/>
+          <Input value={values.fullName} classname={styles.user}  required={"required"}   onChange={handleChange} label="Full Name" name="fullName" type="text" placeholder="Employer or Company name"/>
           <br/>
           <br/>
-             <Input value={values.email} classname={styles.user}     onChange={handleChange} label="E-Mail" name="email" type="email" placeholder="abc@email.com"/>
+             <Input value={values.email} classname={styles.user}  required={"required"}   onChange={handleChange} label="E-Mail" name="email" type="email" placeholder="abc@email.com"/>
             <br/>
             <br/>
-          <Textarea value={values.message}  classname={styles.user}    onChange={handleChange} label="Your message here" name="message" placeholder="Your message please"/>
+          <Textarea value={values.message}  classname={styles.user}  required={"required"}  onChange={handleChange} label="Your message here" name="message" placeholder="Your message please"/>
             <br/>
             <br/>
           <Button type="submit"   _focus={{outline:"none"}}  value="Send" className={styles.button}>Send Email</Button>
