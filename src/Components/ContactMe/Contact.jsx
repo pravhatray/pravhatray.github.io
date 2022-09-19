@@ -107,7 +107,9 @@ const Contact = () => {
          
          <IconButton size='sm' colorScheme='gray' _focus={{outline:"none"}} icon={<EmailIcon color='black ' />}/>
          
+         <Link href='mailto:pravhatray@gmail.com'>
          <Text textDecoration={"underline"}>pravhatray@gmail.com</Text>
+         </Link>
       
         
       </Flex>
