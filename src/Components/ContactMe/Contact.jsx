@@ -2,8 +2,10 @@
 import React, {  useState,useEffect } from "react";
 import styles from "./Contact.module.css";
 import emailjs from "@emailjs/browser";
-import { Box, Button, Hide, Image, Input, SimpleGrid, Text, Textarea } from "@chakra-ui/react";
+import { Box, Button, Flex, Hide, IconButton, Image, Input, Link, SimpleGrid, Text, Textarea } from "@chakra-ui/react";
 import bg from "./img/bg1.gif"
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
+import { EmailIcon } from "@chakra-ui/icons";
 const Contact = () => {
 
   const [values, setValues] = useState({
@@ -76,7 +78,7 @@ const Contact = () => {
           <Textarea value={values.message}  classname={styles.user}    onChange={handleChange} label="Your message here" name="message" placeholder="Your message please"/>
             <br/>
             <br/>
-          <Button type="submit" value="Send" className={styles.button}>Send Email</Button>
+          <Button type="submit"   _focus={{outline:"none"}}  value="Send" className={styles.button}>Send Email</Button>
          
           <Box
             className="blur c-blur1"
@@ -87,8 +89,58 @@ const Contact = () => {
     </SimpleGrid>
 
 
-{/* <Box  h='1100px'  className={styles.bg}>
+{/* Footerr */}
+{/* <Box mt={9}>
+  <Text fontSize={"x-large"} color='teal.500' textAlign={"center"}>Designed⌨💻⌨and Built by Pravhat Ray</Text>
 </Box> */}
+<SimpleGrid columns={[1,1,2,4]} width={"90%"} height="40px" margin={"auto"} marginTop={4} mb={["45%","35%","15%","2%"]}>
+
+
+      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+         <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaPhone />}/>
+         <Text textDecoration={"underline"}>+91 7002403482</Text>
+      </Flex>
+     
+
+      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+       
+         
+         <IconButton size='sm' colorScheme='gray' _focus={{outline:"none"}} icon={<EmailIcon color='black ' />}/>
+         
+         <Text textDecoration={"underline"}>pravhatray@gmail.com</Text>
+      
+        
+      </Flex>
+
+      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+       
+        <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaGithub />}/>
+         
+          <Link href='https://github.com/pravhatray' isExternal >
+         <Text textDecoration={"underline"}>Github Profile</Text>
+        </Link>
+         
+      </Flex>
+
+
+      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+        
+        <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaLinkedin />}/>
+       
+       <Link href="https://www.linkedin.com/in/pravhat-ray-842851236/" isExternal >
+         <Text textDecoration={"underline"}>LinkedIn Profile</Text>
+        </Link>
+         
+      </Flex>
+      
+
+    
+
+
+      </SimpleGrid>
+      <Box mt={5} pb={3}>
+  <Text fontSize={"large"} color='teal.500' textAlign={"center"}>Designed⌨💻⌨and Built by Pravhat Ray © 2022</Text>
+</Box>
 </>
   );
 };

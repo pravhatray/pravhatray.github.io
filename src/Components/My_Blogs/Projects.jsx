@@ -83,17 +83,19 @@ useEffect(()=>{
           <Text fontSize={"large"} color="gray.400">It was an individual project , whole website was built by me. </Text>
             
             <Flex gap={'30px'} mt={2}  >
-              <Link href='https://github.com/pravhatray/outlook_India'>
+              <Link href='https://github.com/pravhatray/outlook_India' isExternal={true}>
                   <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+            <IconButton   _focus={{outline:"none"}}   color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}  color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
             </Flex>
               </Link>
-           
+           <Link href="https://indialookout.vercel.app/?q=" isExternal>
             <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button color='black' pl={"0px"} colorScheme='aqua'  > Live </Button>
+            <IconButton    _focus={{outline:"none"}}  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
+              <Button   _focus={{outline:"none"}}  color='black' pl={"0px"} colorScheme='aqua'  > Live </Button>
             </Flex>
+           </Link>
+           
             </Flex>
            
             </Box >
@@ -149,14 +151,20 @@ useEffect(()=>{
           <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page which shows different categories of Hd images</Text>
             
             <Flex gap={'30px'} mt={2}  >
-               <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+
+              <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal>
+                   <Flex bg={"aqua"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
             </Flex>
-            <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
+              </Link>
+          <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal>
+           <Flex bg={"aqua"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
+              <Button    _focus={{outline:"none"}}   _focus={{outline:"none"}}     color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
             </Flex>
+          </Link>
+           
             </Flex>
            
             </Box >
@@ -212,14 +220,20 @@ useEffect(()=>{
           <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page along with the login and signup authentication page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
-               <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+
+              <Link href="https://github.com/vinaykumar2n/project_pharmeasy" isExternal>
+                  <Flex bg={"aqua"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}    color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}   color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
             </Flex>
-            <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
+              </Link>
+           <Link href="https://bejewelled-fenglisu-95e50b.netlify.app/sagar%20and%20pravhat/navbarforhome" isExternal>
+           <Flex bg={"aqua"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}    color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
+              <Button  _focus={{outline:"none"}}    color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
             </Flex>
+           </Link> 
+           
             </Flex>
            
             </Box >

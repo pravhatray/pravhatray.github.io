@@ -4,11 +4,12 @@ import Typical from "react-typical"
 import {Box, Button, Hide, Show, SimpleGrid, Text} from "@chakra-ui/react"
 import { IconButton } from "@chakra-ui/react"
 import myImg from "./Image/Prav_img.jpeg"
-import Resume from "./Image/Pravhat-Ray_Resume.pdf"
-import {FaFacebook, FaGithub,FaLinkedin} from "react-icons/fa"
+import Resume from "./Image/Pravhat_Ray_Resume.pdf"
+import { FaGithub,FaLinkedin} from "react-icons/fa"
 
 import {motion} from "framer-motion"
 import { Link } from 'react-scroll'
+import Icons from './Icons'
 const About = () => {
   return (
     <>
@@ -27,13 +28,11 @@ const About = () => {
         <Box className={styles.left}>
             <div className={styles.name}>
             <div className={styles.icons}>
-            <IconButton size='lg'  icon={<FaGithub/>} />
-             
-            <IconButton size='lg'  icon={<FaLinkedin/>} />
-
-            <IconButton size='lg'  icon={<FaFacebook/>} />
-                
+             <Icons/>
             </div>
+
+
+
                 <Text fontWeight='bold' fontSize='2rem' color={'#06b6d4 '}> Hello,I am Pravhat Ray</Text>
                 <Hide below='md'>
                       <Text fontWeight='normal' fontSize='2.5rem' color={'yellow'} className={styles.typical}>
@@ -65,13 +64,13 @@ const About = () => {
            
              <Link to="contact" spy={true} smooth={true}>
                
-                <Button className={styles.hire_btn} width={"130%"} textColor={"black"} backgroundColor={'aqua'}>Hire</Button>
+                <Button _focus={{outline:"none"}}  className={styles.hire_btn} width={"130%"} textColor={"black"} backgroundColor={'aqua'}>Hire</Button>
       
                 
         </Link>
 
             <a href={Resume} download style={{textDecoration:"none"}}>
-            <Button width={"130%"} textColor={"black"} backgroundColor={'aqua'}>Resume</Button>
+            <Button _focus={{outline:"none"}}   width={"130%"} textColor={"black"} backgroundColor={'aqua'}>Resume</Button>
             </a>
             </div>
             

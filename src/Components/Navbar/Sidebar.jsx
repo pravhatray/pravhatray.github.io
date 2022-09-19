@@ -76,20 +76,17 @@ export default function Sidebar() {
                     </DrawerBody>
 
                     <DrawerFooter>
-                        <Flex columnGap={7}>
-                            <a href='https://github.com/pravhatray'>
-                                <IconButton size='lg' colorScheme='teal' icon={<FaGithub />} />
+                    <Flex columnGap={11} justifyContent="space-around">
+                            <Link to='contact' spy={true} smooth={true}>
+                            <Button _focus={{outline:"none"}} onClick={onClose} size={'lg'} bgColor="teal" color={'white'}>Hire me</Button>
+                            </Link>
+                            
+                            <a href='https://github.com/pravhatray'  target="_blank">
+                                <IconButton size='lg' colorScheme='teal' _focus={{outline:"none"}} icon={<FaGithub />} />
                             </a>
 
-                            <a href='https://www.linkedin.com/in/pravhat-ray-842851236/'><IconButton size='lg' colorScheme='teal' icon={<FaLinkedin />} /></a>
-                            <a href='https://www.linkedin.com/in/pravhat-ray-842851236/'><IconButton size='lg' colorScheme='teal' icon={<FaFacebook />} /></a>
-                            <Button size={'lg'} w={3.5} bgColor="teal">
-                                <a href='pravhatray@gmail.com'><EmailIcon color='white' /></a>
-
-                            </Button>
-
-
-                        </Flex>
+                            <a href='https://www.linkedin.com/in/pravhat-ray-842851236/'  target="_blank"><IconButton size='lg' _focus={{outline:"none"}} colorScheme='teal' icon={<FaLinkedin />} /></a>
+                            </Flex>
                     </DrawerFooter>
                 </DrawerContent>
             </Drawer>

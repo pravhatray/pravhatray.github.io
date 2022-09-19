@@ -20,10 +20,16 @@ const Navbar = () => {
                     <Box className={styles.name}>
                         <Flex>
                             <span>
-                                <Text color={'yellow'}>PRAV</Text>
+                                <Link to='Navbar'   spy={true} smooth={true}>
+                                 <Text  cursor= "pointer"  color={'yellow'}>PRAV</Text>
+                                </Link>
+                               
                             </span>
                             <span>
-                                <Text color={'#075985 '}>HAT</Text>
+                            <Link to='Navbar'  spy={true} smooth={true}>
+                                <Text   cursor= "pointer" color={'#075985 '}>HAT</Text>
+                                </Link>
+                                
                             </span>
                         </Flex>
 
@@ -76,9 +82,9 @@ const Navbar = () => {
              
 
                     <Link to="contact" spy={true} smooth={true}>
-                        <Button size={'sm'} mt={2}>CONTACT ME</Button>
+                        <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>CONTACT ME</Button>
                     </Link>
-                    <IconButton size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
+                    <IconButton _focus={{outline:"none"}} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
 
 {/* ----------------------------------------------------------------------------------------- */}
 

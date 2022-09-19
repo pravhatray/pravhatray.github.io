@@ -4,6 +4,8 @@ import styles from "./Stats.module.css"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import GitHubCalendar from 'react-github-calendar';
+
 const Stats = () => {
 
 
@@ -26,20 +28,7 @@ const Stats = () => {
             </span>
         </Box>
         </Box>
-        
-         {/* <Box data-aos="fade-up"
-                    data-aos-duration="1400">
-        
-        <Box className={styles.achievement}>
-        <Box className={styles.circle} style={{color: '#facc15 '}}>150+</Box>
-        <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Numbers of</Text>
-             </span>
-        <span>
-            <Text fontSize='x-large'>DSA Problems</Text>
-            </span>
-        </Box>
-        </Box> */}
+   
 
          <Box data-aos="fade-up"
                     data-aos-duration="1800">
@@ -83,23 +72,12 @@ const Stats = () => {
         </Box>
         </Box>
 
-{/* 
-         <Box data-aos="fade-up"
-                    data-aos-duration="3000">
-        
-        <Box className={styles.achievement}>
-        <Box className={styles.circle} style={{color: '#facc15 '}}>10+</Box>
-        <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Numbers of</Text>
-             </span>
-        <span>
-            <Text fontSize='x-large'>Presentation</Text>
-            </span>
-        </Box>
-        </Box> */}
+
     </SimpleGrid>
     
-    
+    <Box  width={['95%','80%','65%']} m='auto' mb={'20px'} >
+    <GitHubCalendar username="pravhatray" />
+    </Box>
     </>
   )
 }
