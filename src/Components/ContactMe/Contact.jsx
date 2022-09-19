@@ -88,11 +88,6 @@ const Contact = () => {
       </Box>
     </SimpleGrid>
 
-
-{/* Footerr */}
-{/* <Box mt={9}>
-  <Text fontSize={"x-large"} color='teal.500' textAlign={"center"}>Designed⌨💻⌨and Built by Pravhat Ray</Text>
-</Box> */}
 <SimpleGrid columns={[1,1,2,4]} width={"90%"} height="40px" margin={"auto"} marginTop={4} mb={["45%","35%","15%","2%"]}>
 
 

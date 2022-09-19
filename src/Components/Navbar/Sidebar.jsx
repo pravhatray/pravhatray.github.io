@@ -80,6 +80,12 @@ export default function Sidebar() {
                             <Link to='contact' spy={true} smooth={true}>
                             <Button _focus={{outline:"none"}} onClick={onClose} size={'lg'} bgColor="teal" color={'white'}>Hire me</Button>
                             </Link>
+                            <a href="mailto:pravhatray@gmail.com">
+
+                            <IconButton size='lg' colorScheme='teal' _focus={{ outline: "none" }} icon={<EmailIcon color='white ' />} />
+
+                            </a>
+
                             
                             <a href='https://github.com/pravhatray'  target="_blank">
                                 <IconButton size='lg' colorScheme='teal' _focus={{outline:"none"}} icon={<FaGithub />} />

@@ -154,14 +154,14 @@ useEffect(()=>{
 
               <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal>
                    <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+            <IconButton    _focus={{outline:"none"}}     color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}    color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
             </Flex>
               </Link>
           <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal>
            <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}   _focus={{outline:"none"}}      color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button    _focus={{outline:"none"}}   _focus={{outline:"none"}}     color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
+            <IconButton    _focus={{outline:"none"}}     color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
+              <Button    _focus={{outline:"none"}}   color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
             </Flex>
           </Link>
            
