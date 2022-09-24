@@ -76,7 +76,7 @@ const Stats = () => {
     </SimpleGrid>
     
     <Box  width={['95%','80%','65%']} m='auto' mb={'20px'} >
-    <GitHubCalendar username="pravhatray" />
+    <GitHubCalendar username="pravhatray"  />
     </Box>
     </>
   )

@@ -80,10 +80,12 @@ const Navbar = () => {
                     </Box>
                     </Hide>
              
-
-                    <Link to="contact" spy={true} smooth={true}>
+                    <Hide below='sm' >
+                        <Link to="contact" spy={true} smooth={true}>
                         <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>CONTACT ME</Button>
                     </Link>
+                    </Hide>
+                    
                     <IconButton _focus={{outline:"none"}} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
 
 {/* ----------------------------------------------------------------------------------------- */}

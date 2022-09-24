@@ -11,7 +11,6 @@ const Contact = () => {
   const [values, setValues] = useState({
     fullName: '',
     email: '',
-  
     message: ''
   });
   const [status, setStatus] = useState('');
@@ -59,7 +58,7 @@ const Contact = () => {
         </Hide>
      
       {/* right side form */}
-      <Box  width="100%" m="auto" >
+      <Box  width="80%" m="auto" >
       {status && renderAlert()}
         <form  onSubmit={handleSubmit} >
           

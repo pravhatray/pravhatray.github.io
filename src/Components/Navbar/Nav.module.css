@@ -11,7 +11,7 @@
 }
 .left{
     flex: 1;
-   
+    padding-left:2%;
     display: flex;
     gap: 2 rem;
 }
