@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Flex, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./Stats.module.css"
 import Aos from 'aos';
@@ -75,9 +75,30 @@ const Stats = () => {
 
     </SimpleGrid>
     
+    <Box mb={10}>
+    <Text mt={5} fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>MY GITHUB STATS</Text>
+    </Box>
+
     <Box  width={['95%','80%','65%']} m='auto' mb={'20px'} >
     <GitHubCalendar username="pravhatray"  />
     </Box>
+    {/* <Flex width={"90%"} >
+        
+         
+         
+    </Flex> */}
+    <SimpleGrid columns={[1,2,2,3]} className={styles.stats} >
+   
+    <Box>
+    <Image src="https://github-readme-stats.vercel.app/api?username=pravhatray&include_all_commits=false&count_private=false" ></Image>
+    </Box> 
+    <Box>
+    <Image src="https://github-readme-streak-stats.herokuapp.com/?user=pravhatray" ></Image>
+    </Box>
+    <Box>
+    <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=pravhatray&include_all_commits=false&count_private=false&layout=compact" ></Image>
+    </Box>
+    </SimpleGrid>
     </>
   )
 }

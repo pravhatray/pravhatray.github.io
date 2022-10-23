@@ -8,6 +8,7 @@ import {
 import { FaSun, FaMoon } from "react-icons/fa"
 import { Link } from "react-scroll"
 import Sidebar from './Sidebar'
+import Resume from "../Home/Image/Pravhat_Ray_Resume.pdf"
 
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode()
@@ -84,6 +85,11 @@ const Navbar = () => {
                         <Link to="contact" spy={true} smooth={true}>
                         <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>CONTACT ME</Button>
                     </Link>
+                    </Hide>
+                    <Hide below='sm' >
+                    <a href={Resume} download style={{textDecoration:"none"}}>
+            <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>Resume</Button>
+            </a>
                     </Hide>
                     
                     <IconButton _focus={{outline:"none"}} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />

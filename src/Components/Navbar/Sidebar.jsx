@@ -21,7 +21,7 @@ import { HamburgerIcon, EmailIcon } from '@chakra-ui/icons'
 import { Link } from 'react-scroll'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import styles from "./Side.module.css";
-
+import Resume from "../Home/Image/Pravhat_Ray_Resume.pdf"
 
 
 
@@ -77,9 +77,9 @@ export default function Sidebar() {
 
                     <DrawerFooter>
                     <Flex columnGap={11} justifyContent="space-around">
-                            <Link to='contact' spy={true} smooth={true}>
-                            <Button _focus={{outline:"none"}} onClick={onClose} size={'lg'} bgColor="teal" color={'white'}>Hire me</Button>
-                            </Link>
+                    <a href={Resume} download style={{textDecoration:"none"}}>
+            <Button size='lg' colorScheme='teal' _focus={{outline:"none"}} >Resume</Button>
+            </a>
                             <a href="mailto:pravhatray@gmail.com">
 
                             <IconButton size='lg' colorScheme='teal' _focus={{ outline: "none" }} icon={<EmailIcon color='white ' />} />
