@@ -134,7 +134,7 @@ const Skills = () => {
 
       <SimpleGrid name="skills" mt={'7%'} gap='5%' columns={[1, 1, 2]}>
         <Box className={styles.front}>
-          <Text fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'  >FRONTEND SKILLS</Text>
+          <Text fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4 '} textAlign='center'  >FRONTEND SKILLS</Text>
           <SimpleGrid rowGap='20px' m='20px' gap={'-50px'} columns={[2, 2, 2, 3]}>
             {
               front.map((f) => {
@@ -158,7 +158,7 @@ const Skills = () => {
         </Box>
 
         <Box className={styles.back}>
-          <Text fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'  >BACKEND SKILLS</Text>
+          <Text fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4'} textAlign='center'  >BACKEND SKILLS</Text>
           <SimpleGrid rowGap='20px' m='20px' gap={'-50px'} columns={[2, 2, 2, 3]}>
             {
               back.map((f) => {
@@ -183,7 +183,7 @@ const Skills = () => {
 
       {/* tools=============tooolss */}
       <Box mb={'7%'} mt={['70px','70px','50px','50px']} className={styles.front}>
-        <Text fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>TOOLS</Text>
+        <Text fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4'} textAlign='center'>TOOLS</Text>
         <SimpleGrid rowGap='20px' m='20px' gap={'-50px'} columns={[2, 2, 3, 4]}>
           {
             tools.map((f) => {

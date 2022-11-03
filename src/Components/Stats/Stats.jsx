@@ -21,7 +21,7 @@ const Stats = () => {
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>1200+</Box>
         <span  style={{color: '#0e7490'}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Hours of</Text>
+            <Text fontSize='x-large' fontWeight='bolder'color={"#06b6d4"} >Hours of</Text>
              </span>
         <span>
             <Text fontSize='x-large'>Coding</Text>
@@ -36,7 +36,7 @@ const Stats = () => {
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>100+</Box>
         <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Github</Text>
+            <Text fontSize='x-large' fontWeight='bolder'color={"#06b6d4"} >Github</Text>
              </span>
         <span>
             <Text fontSize='x-large'>Commits</Text>
@@ -50,7 +50,7 @@ const Stats = () => {
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color:'#facc15 '}}>5+</Box>
         <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Projects</Text>
+            <Text fontSize='x-large' fontWeight='bolder'color={"#06b6d4"} >Projects</Text>
              </span>
         <span>
             <Text fontSize='x-large'>Done</Text>
@@ -64,7 +64,7 @@ const Stats = () => {
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>110+</Box>
         <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'>Hours of</Text>
+            <Text fontSize='x-large' fontWeight='bolder'color={"#06b6d4"} >Hours of</Text>
              </span>
         <span>
             <Text fontSize='x-large'>Soft skills</Text>
@@ -76,7 +76,7 @@ const Stats = () => {
     </SimpleGrid>
     
     <Box mb={10}>
-    <Text mt={5} fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>MY GITHUB STATS</Text>
+    <Text mt={5} fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4'} textAlign='center'>MY GITHUB STATS</Text>
     </Box>
 
     <Box  width={['95%','80%','65%']} m='auto' mb={'20px'} >

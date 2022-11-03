@@ -28,7 +28,7 @@ useEffect(()=>{
 
   return (
     <>
-     <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={'#075985 '} textAlign='center'>MY PROJECTS</Text>
+     <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4 '} textAlign='center'>MY PROJECTS</Text>
      
      
      <SimpleGrid name='projects'

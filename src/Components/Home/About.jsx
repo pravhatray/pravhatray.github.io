@@ -35,7 +35,7 @@ const About = () => {
 
                 <Text fontWeight='bold' fontSize='2rem' color={'#06b6d4 '}> Hello,I am Pravhat Ray</Text>
                 <Hide below='md'>
-                      <Text fontWeight='normal' fontSize='2.5rem' color={'yellow'} className={styles.typical}>
+                      <Text fontWeight='normal' fontSize='2.5rem' color={'yellowGreen'} className={styles.typical}>
                     <h1>
                             <Typical
                             loop={Infinity}
