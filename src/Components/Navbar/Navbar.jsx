@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Flex>
                             <span>
                                 <Link to='Navbar'   spy={true} smooth={true}>
-                                 <Text  cursor= "pointer"  color={'yellow'}>PRAV</Text>
+                                 <Text  cursor= "pointer"  color={'#f4e16a'}>PRAV</Text>
                                 </Link>
                                
                             </span>
@@ -50,28 +50,30 @@ const Navbar = () => {
                         <ul>
                             <li>
                                 <Link activeClass='active' to="Navbar" offset={-55} spy={true} smooth={true}>
-                                    HOME
+                                   <Text fontWeight={"medium"}  color="white"  >HOME
+                                    </Text> 
                                 </Link>
 
 
                             </li>
                             <li>
                                 <Link to="tech-stack"  spy={true} smooth={true} offset={-50} >
-                                    TECH-STACK
+
+                                    <Text fontWeight={"medium"}  color="white"  >TECH-STACK </Text> 
                                 </Link>
 
 
                             </li>
                             <li>
                                 <Link to="skills" spy={true} offset={-50} smooth={true}>
-                                    SKILLS
+                                   <Text fontWeight={"medium"}  color="white"  > SKILLS </Text> 
                                 </Link>
 
 
                             </li>
                             <li>
                                 <Link to="projects" offset={-175} spy={true} smooth={true}>
-                                    PROJECT-BLOGS
+                                    <Text fontWeight={"medium"}  color="white"  >PROJECT-BLOGS </Text> 
                                 </Link>
 
 
@@ -83,16 +85,16 @@ const Navbar = () => {
              
                     <Hide below='sm' >
                         <Link to="contact" spy={true} smooth={true}>
-                        <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>CONTACT ME</Button>
+                        <Button colorScheme={"#67dcfa"} color="white" size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}><Text color="white">CONTACT ME </Text> </Button>
                     </Link>
                     </Hide>
                     <Hide below='sm' >
                     <a href={Resume} download style={{textDecoration:"none"}}>
-            <Button size={'sm'} mt={2} outline='none' _focus={{outline:"none"}}>Resume</Button>
+            <Button colorScheme={"#67dcfa"} size={'sm'} mt={2} outline='none' color="white" _focus={{outline:"none"}}> <Text color="white">RESUME </Text> </Button>
             </a>
                     </Hide>
                     
-                    <IconButton _focus={{outline:"none"}} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
+                    <IconButton colorScheme={"#67dcfa"} _focus={{outline:"none"}} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon />} />
 
 {/* ----------------------------------------------------------------------------------------- */}
 

@@ -4,11 +4,13 @@
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 4.4%;
+    margin-top: 4.2%;
     margin-bottom: 30px;
-    padding-bottom: 5%;   
-  
-     background-image: url(https://thumbs.gfycat.com/CarefulFalseComet-size_restricted.gif); 
+    padding-bottom: 5%; 
+    
+    background-image: url("https://images.template.net/wp-content/uploads/2016/11/16135851/Cartoon-Gif-Animated1.gif");
+ 
+     /* background-image: url(https://thumbs.gfycat.com/CarefulFalseComet-size_restricted.gif);  */
 }
 
 .name{

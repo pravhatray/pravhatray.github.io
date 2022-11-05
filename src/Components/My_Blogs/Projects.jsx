@@ -70,7 +70,7 @@ useEffect(()=>{
               textDecoration="underline"
                 fontSize="xx-large"
                textAlign={"center"}
-                color={'yellowGreen'}
+                color={'#f4e16a'}
                 fontWeight='semibold'
                 font>
                Everhour.com
@@ -83,26 +83,26 @@ useEffect(()=>{
  data-aos-duration="1500">
 
             <Box p={3}>
-          <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+          <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
             <Text color="gray.400">Everhour is a time management system with a strong focus on integration. If you're managing all your tasks in a specialized system, such as Asana, Trello, Basecamp, where there is no native time tracking functionality (or it's limited), you'll need to use a third-party service</Text>
           </div>
-          <Text fontSize={"x-large"} color="yellowGreen">Tech-Stack</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
           <Text fontSize={"large"} color="gray.400">Mongo DB | Express | Redux | React JS | React-Router-Dom | Chakra UI | React-Icons</Text>
-          <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
           <Text fontSize={"large"} color="gray.400">It was an group project , I was responsible for building the dashboard page , project section, calender section, responsivness of the dashboard page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
               <Link href='https://github.com/pravhatray/determined-wax-1018' isExternal={true}>
-                  <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}   color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}  color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+                  <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}   color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}  color='white'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
            <Link href="https://the-great-pravhatray-site.netlify.app/" isExternal>
-            <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button   _focus={{outline:"none"}}  color='black' pl={"0px"} colorScheme='aqua'  > Live </Button>
+            <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}  color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button   _focus={{outline:"none"}}  color='white' pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
             </Flex>
            </Link>
            
@@ -128,7 +128,7 @@ useEffect(()=>{
          m="auto"
          p={3}
           columns={[1,1,2]} 
-          mt={"20px"} 
+          mt={"40px"} 
           borderRadius="7px" 
            boxShadow= 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px' >
       <Box data-aos="fade-up"
@@ -157,7 +157,7 @@ useEffect(()=>{
               textDecoration="underline"
                 fontSize="xx-large"
                textAlign={"center"}
-                color={'yellowGreen'}
+                color={'#f4e16a'}
                 fontWeight='semibold'
                 font>
                 Outlook India.com
@@ -170,26 +170,26 @@ useEffect(()=>{
  data-aos-duration="1500">
 
             <Box p={3}>
-          <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+          <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
             <Text color="gray.400">Outlook Publishing (India) Pvt. Ltd. started operations in 1995 as a division of Hathway Investments Private Limited, with the launch of ‘Outlook’, a current affairs news magazine. In 2003, the division was demerged into a separate entity Outlook Publishing (India) Pvt. Ltd.</Text>
           </div>
-          <Text fontSize={"x-large"} color="yellowGreen">Tech-Stack</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
           <Text fontSize={"large"} color="gray.400">React JS | React-Router-Dom |JSON-Server | Chakra UI | React-Icons</Text>
-          <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
           <Text fontSize={"large"} color="gray.400">It was an individual project , whole website was built by me. </Text>
             
             <Flex gap={'30px'} mt={2}  >
               <Link href='https://github.com/pravhatray/outlook_India' isExternal={true}>
-                  <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}   color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}  color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+                  <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}   color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}  color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
            <Link href="https://indialookout.vercel.app/?q=" isExternal>
-            <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}  color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button   _focus={{outline:"none"}}  color='black' pl={"0px"} colorScheme='aqua'  > Live </Button>
+            <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}  color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button   _focus={{outline:"none"}}  color='black' pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
             </Flex>
            </Link>
            
@@ -227,7 +227,7 @@ useEffect(()=>{
               textDecoration="underline"
                 fontSize="xx-large"
                textAlign={"center"}
-                color={'yellowGreen'}
+                color={'#f4e16a'}
                 fontWeight='semibold'
                 font>
                 Unsplash.com
@@ -238,27 +238,27 @@ useEffect(()=>{
             <div data-aos="fade-up"
              data-aos-duration="1500">
             <Box p={3}>
-          <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+          <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
             <Text color="gray.400">Unsplash is a platform powered by an amazing community that has gifted hundreds of thousands of their own photos to fuel creativity around the world. So sign up for free, or don’t. Either way, you’ve got access to over 3 million photos under the Unsplash license—which makes them free to do-whatever-you-want with..</Text>
           </div>
-          <Text fontSize={"x-large"} color="yellowGreen">Tech-Stack</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
           <Text fontSize={"large"} color="gray.400">HTML | CSS | Javascript | JSON-Server</Text>
-          <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
           <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page which shows different categories of Hd images</Text>
             
             <Flex gap={'30px'} mt={2}  >
 
               <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal>
-                   <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}     color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}    color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+                   <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}     color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}    color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
           <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal>
-           <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}     color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button    _focus={{outline:"none"}}   color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
+           <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton    _focus={{outline:"none"}}     color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button    _focus={{outline:"none"}}   color='black' pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
             </Flex>
           </Link>
            
@@ -296,7 +296,7 @@ useEffect(()=>{
               textDecoration="underline"
                 fontSize="xx-large"
                textAlign={"center"}
-                color={'yellowGreen'}
+                color={'#f4e16a'}
                 fontWeight='semibold'
                 font>
                Pharm Easy.com
@@ -307,27 +307,27 @@ useEffect(()=>{
             <div data-aos="fade-up"
              data-aos-duration="1500">            
             <Box p={3}>
-          <Text  letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+          <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
             <Text color="gray.400">PharmEasy is a consumer healthcare “super app”.PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.</Text>
           </div>
-          <Text fontSize={"x-large"} color="yellowGreen">Tech-Stack</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
           <Text fontSize={"large"} color="gray.400">"HTML | CSS | Javascript</Text>
-          <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+          <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
           <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page along with the login and signup authentication page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
 
               <Link href="https://github.com/vinaykumar2n/project_pharmeasy" isExternal>
-                  <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}    color='black'  colorScheme='aqua'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}   color='black'  pl={"0px"} colorScheme='aqua' > Source Code  </Button>
+                  <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}    color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}   color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
            <Link href="https://bejewelled-fenglisu-95e50b.netlify.app/sagar%20and%20pravhat/navbarforhome" isExternal>
-           <Flex bg={"aqua"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}    color='black' colorScheme='aqua'  size='md'  icon={<FaLink/>} />
-              <Button  _focus={{outline:"none"}}    color='black' pl={"0px"} colorScheme='aqua'  > Live</Button>
+           <Flex bg={"#67dcfa"} borderRadius={4}>
+            <IconButton   _focus={{outline:"none"}}    color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button  _focus={{outline:"none"}}    color='black' pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
             </Flex>
            </Link> 
            

@@ -3,7 +3,7 @@
     height: 10vh;
     justify-content: space-around;
     align-items: center;
-    background-color:#000000   ;
+    background-color:#67dcfa ;
     position:fixed;
     width: 100%;
     top: -1%;
@@ -36,7 +36,7 @@
     margin-left: 1rem;
     list-style-type:none;
     margin-top: 10px;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 .list>ul>li:hover{
     cursor: pointer;
