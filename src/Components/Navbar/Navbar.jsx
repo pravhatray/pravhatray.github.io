@@ -89,8 +89,8 @@ const Navbar = () => {
                     </Link>
                     </Hide>
                     <Hide below='sm' >
-                    <a href={Resume} download style={{textDecoration:"none"}}>
-            <Button colorScheme={"#67dcfa"} size={'sm'} mt={2} outline='none' color="white" _focus={{outline:"none"}}> <Text color="white">RESUME </Text> </Button>
+                    <a href="https://drive.google.com/file/d/1KOI0wb1mmOv97cY4Tx_eKjy_DG8LBpBC/view?usp=sharing"  rel="noreferrer"    target="_blank"  style={{textDecoration:"none"}}>
+            <Button colorScheme={"#67dcfa"} size={'sm'} mt={2} outline='none' color="white" _focus={{outline:"none"}}> <Text color="white" >RESUME </Text> </Button>
             </a>
                     </Hide>
                     

@@ -70,7 +70,7 @@ const About = () => {
         </Link>
 
             <a href={Resume} download style={{textDecoration:"none"}}>
-            <Button _focus={{outline:"none"}}   width={"130%"} textColor={"white"} backgroundColor={'black'}>Resume</Button>
+            <Button _focus={{outline:"none"}}   width={"130%"} textColor={"white"} backgroundColor={'black'}>Download Resume</Button>
             </a>
             </div>
             

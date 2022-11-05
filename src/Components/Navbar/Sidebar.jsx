@@ -77,7 +77,7 @@ export default function Sidebar() {
 
                     <DrawerFooter>
                     <Flex columnGap={11} justifyContent="space-around">
-                    <a href={Resume} download style={{textDecoration:"none"}}>
+                    <a href="https://drive.google.com/file/d/1KOI0wb1mmOv97cY4Tx_eKjy_DG8LBpBC/view?usp=sharing"  rel="noreferrer"   target="_blank" style={{textDecoration:"none"}}>
             <Button size='lg' colorScheme='teal' _focus={{outline:"none"}} >Resume</Button>
             </a>
                             <a href="mailto:pravhatray@gmail.com">
