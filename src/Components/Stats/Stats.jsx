@@ -20,11 +20,11 @@ const Stats = () => {
         
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>1200+</Box>
-        <span  style={{color: '#0e7490'}}>
-            <Text fontSize='x-large' fontWeight='bolder'color={'#f4e16a'} >Hours of</Text>
+        <span >
+            <Text fontSize='x-large' fontWeight='bolder' >Hours of</Text>
              </span>
         <span>
-            <Text fontSize='x-large' color={'#f4e16a'}>Coding</Text>
+            <Text fontSize='x-large' >Coding</Text>
             </span>
         </Box>
         </Box>
@@ -35,8 +35,8 @@ const Stats = () => {
         
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>100+</Box>
-        <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'color={'#f4e16a'} >Github</Text>
+        <span  >
+            <Text fontSize='x-large' fontWeight='bolder' >Github</Text>
              </span>
         <span>
             <Text fontSize='x-large' color={'#f4e16a'}>Commits</Text>
@@ -49,8 +49,8 @@ const Stats = () => {
         
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color:'#facc15 '}}>5+</Box>
-        <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'color={'#f4e16a'} >Projects</Text>
+        <span >
+            <Text fontSize='x-large' fontWeight='bolder' >Projects</Text>
              </span>
         <span>
             <Text fontSize='x-large' color={'#f4e16a'}>Done</Text>
@@ -63,8 +63,8 @@ const Stats = () => {
         
         <Box className={styles.achievement}>
         <Box className={styles.circle} style={{color: '#facc15 '}}>110+</Box>
-        <span  style={{color: '#0e7490  '}}>
-            <Text fontSize='x-large' fontWeight='bolder'color={'#f4e16a'} >Hours of</Text>
+        <span  >
+            <Text fontSize='x-large' fontWeight='bolder' >Hours of</Text>
              </span>
         <span>
             <Text fontSize='x-large' color={'#f4e16a'}>Soft skills</Text>
