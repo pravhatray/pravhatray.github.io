@@ -63,7 +63,7 @@ const Contact = () => {
         <form  onSubmit={handleSubmit} >
           
            
-                    <Text fontSize={"xl"} fontWeight="600">Let's Colaborate</Text>
+                    <Text fontSize={"xl"} color={'#f4e16a'} fontWeight="600">Let's Colaborate</Text>
                 <br/>
              
               
@@ -90,45 +90,45 @@ const Contact = () => {
 <SimpleGrid columns={[1,1,2,4]} width={"90%"} height="40px" margin={"auto"} marginTop={4} mb={["45%","35%","15%","2%"]}>
 
 
-      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+      <Flex alignItems={"center"} gap="20px"  mt={4} >
          <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaPhone />}/>
          <Link href="tel:7002403482">
-         <Text textDecoration={"underline"}>+91 7002403482</Text>
+         <Text textDecoration={"underline"}   >+91 7002403482</Text>
          
          </Link>
          
       </Flex>
      
 
-      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+      <Flex alignItems={"center"} gap="20px"  mt={4} >
        
          
          <IconButton size='sm' colorScheme='gray' _focus={{outline:"none"}} icon={<EmailIcon color='black ' />}/>
          
          <Link href='mailto:pravhatray@gmail.com'>
-         <Text textDecoration={"underline"}>pravhatray@gmail.com</Text>
+         <Text textDecoration={"underline"}   >pravhatray@gmail.com</Text>
          </Link>
       
         
       </Flex>
 
-      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+      <Flex alignItems={"center"} gap="20px"  mt={4} >
        
         <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaGithub />}/>
          
           <Link href='https://github.com/pravhatray' isExternal >
-         <Text textDecoration={"underline"}>Github Profile</Text>
+         <Text textDecoration={"underline"}   >Github Profile</Text>
         </Link>
          
       </Flex>
 
 
-      <Flex alignItems={"center"} gap="20px" color={"gray"} mt={4} >
+      <Flex alignItems={"center"} gap="20px"  mt={4} >
         
         <IconButton size='sm' colorScheme='gray' color="black" _focus={{outline:"none"}} icon={<FaLinkedin />}/>
        
        <Link href="https://www.linkedin.com/in/pravhat-ray-842851236/" isExternal >
-         <Text textDecoration={"underline"}>LinkedIn Profile</Text>
+         <Text textDecoration={"underline"}   >LinkedIn Profile</Text>
         </Link>
          
       </Flex>
@@ -139,7 +139,7 @@ const Contact = () => {
 
       </SimpleGrid>
       <Box mt={5} pb={3}>
-  <Text fontSize={"large"} color='teal.500' textAlign={"center"}>Designed⌨💻⌨and Built by Pravhat Ray © 2022</Text>
+  <Text fontSize={"large"} color={'#f4e16a'} textAlign={"center"}>Designed⌨💻⌨and Built by Pravhat Ray © 2022</Text>
 </Box>
 </>
   );

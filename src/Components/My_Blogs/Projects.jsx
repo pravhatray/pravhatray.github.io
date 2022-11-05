@@ -28,7 +28,7 @@ useEffect(()=>{
 
   return (
     <>
-     <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4 '} textAlign='center'>MY PROJECTS</Text>
+     <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={'#f4e16a'} textAlign='center'>MY PROJECTS</Text>
      
      
      <SimpleGrid name='projects'
@@ -85,12 +85,12 @@ useEffect(()=>{
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
-            <Text color="gray.400">Everhour is a time management system with a strong focus on integration. If you're managing all your tasks in a specialized system, such as Asana, Trello, Basecamp, where there is no native time tracking functionality (or it's limited), you'll need to use a third-party service</Text>
+            <Text    >Everhour is a time management system with a strong focus on integration. If you're managing all your tasks in a specialized system, such as Asana, Trello, Basecamp, where there is no native time tracking functionality (or it's limited), you'll need to use a third-party service</Text>
           </div>
           <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
-          <Text fontSize={"large"} color="gray.400">Mongo DB | Express | Redux | React JS | React-Router-Dom | Chakra UI | React-Icons</Text>
+          <Text fontSize={"large"}    >Mongo DB | Express | Redux | React JS | React-Router-Dom | Chakra UI | React-Icons</Text>
           <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
-          <Text fontSize={"large"} color="gray.400">It was an group project , I was responsible for building the dashboard page , project section, calender section, responsivness of the dashboard page. </Text>
+          <Text fontSize={"large"}    >It was an group project , I was responsible for building the dashboard page , project section, calender section, responsivness of the dashboard page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
               <Link href='https://github.com/pravhatray/determined-wax-1018' isExternal={true}>
@@ -172,12 +172,12 @@ useEffect(()=>{
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
-            <Text color="gray.400">Outlook Publishing (India) Pvt. Ltd. started operations in 1995 as a division of Hathway Investments Private Limited, with the launch of ‘Outlook’, a current affairs news magazine. In 2003, the division was demerged into a separate entity Outlook Publishing (India) Pvt. Ltd.</Text>
+            <Text    >Outlook Publishing (India) Pvt. Ltd. started operations in 1995 as a division of Hathway Investments Private Limited, with the launch of ‘Outlook’, a current affairs news magazine. In 2003, the division was demerged into a separate entity Outlook Publishing (India) Pvt. Ltd.</Text>
           </div>
           <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
-          <Text fontSize={"large"} color="gray.400">React JS | React-Router-Dom |JSON-Server | Chakra UI | React-Icons</Text>
+          <Text fontSize={"large"}    >React JS | React-Router-Dom |JSON-Server | Chakra UI | React-Icons</Text>
           <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
-          <Text fontSize={"large"} color="gray.400">It was an individual project , whole website was built by me. </Text>
+          <Text fontSize={"large"}    >It was an individual project , whole website was built by me. </Text>
             
             <Flex gap={'30px'} mt={2}  >
               <Link href='https://github.com/pravhatray/outlook_India' isExternal={true}>
@@ -240,12 +240,12 @@ useEffect(()=>{
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
-            <Text color="gray.400">Unsplash is a platform powered by an amazing community that has gifted hundreds of thousands of their own photos to fuel creativity around the world. So sign up for free, or don’t. Either way, you’ve got access to over 3 million photos under the Unsplash license—which makes them free to do-whatever-you-want with..</Text>
+            <Text    >Unsplash is a platform powered by an amazing community that has gifted hundreds of thousands of their own photos to fuel creativity around the world. So sign up for free, or don’t. Either way, you’ve got access to over 3 million photos under the Unsplash license—which makes them free to do-whatever-you-want with..</Text>
           </div>
           <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
-          <Text fontSize={"large"} color="gray.400">HTML | CSS | Javascript | JSON-Server</Text>
+          <Text fontSize={"large"}    >HTML | CSS | Javascript | JSON-Server</Text>
           <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
-          <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page which shows different categories of Hd images</Text>
+          <Text fontSize={"large"}    >It was an group project for 6 members, and I had built home page which shows different categories of Hd images</Text>
             
             <Flex gap={'30px'} mt={2}  >
 
@@ -309,12 +309,12 @@ useEffect(()=>{
             <Box p={3}>
           <Text  letterSpacing={1.5} fontSize={"x-large"} color="#f4e16a">About Project</Text>
           <div>
-            <Text color="gray.400">PharmEasy is a consumer healthcare “super app”.PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.</Text>
+            <Text    >PharmEasy is a consumer healthcare “super app”.PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.</Text>
           </div>
           <Text fontSize={"x-large"} color="#f4e16a">Tech-Stack</Text>
-          <Text fontSize={"large"} color="gray.400">"HTML | CSS | Javascript</Text>
+          <Text fontSize={"large"}    >"HTML | CSS | Javascript</Text>
           <Text fontSize={"x-large"} color="#f4e16a">Role</Text>
-          <Text fontSize={"large"} color="gray.400">It was an group project for 6 members, and I had built home page along with the login and signup authentication page. </Text>
+          <Text fontSize={"large"}    >It was an group project for 6 members, and I had built home page along with the login and signup authentication page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
 

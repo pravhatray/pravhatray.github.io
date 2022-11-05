@@ -59,7 +59,7 @@ const Tech = () => {
       <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-        <Text fontSize={'xx-large'} fontWeight='semibold' color={'#06b6d4 '} textAlign='center' mb={4} >TECH-STACKS</Text>
+        <Text fontSize={'xx-large'} fontWeight='semibold'color={'#f4e16a'} textAlign='center' mb={4} >TECH-STACKS</Text>
 
         <SimpleGrid name='tech-stack' columns={[2, 2, 3, 5]}
           gap='20px'
