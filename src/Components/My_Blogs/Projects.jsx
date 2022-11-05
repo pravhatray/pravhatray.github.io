@@ -182,14 +182,14 @@ useEffect(()=>{
             <Flex gap={'30px'} mt={2}  >
               <Link href='https://github.com/pravhatray/outlook_India' isExternal={true}>
                   <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}   color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}  color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
+            <IconButton   _focus={{outline:"none"}}   color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}  color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
            <Link href="https://indialookout.vercel.app/?q=" isExternal>
             <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}  color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
-              <Button   _focus={{outline:"none"}}  color='black' pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
+            <IconButton    _focus={{outline:"none"}}  color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button   _focus={{outline:"none"}}  color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
             </Flex>
            </Link>
            
@@ -251,14 +251,14 @@ useEffect(()=>{
 
               <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal>
                    <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}     color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}    color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
+            <IconButton    _focus={{outline:"none"}}     color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}    color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
           <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal>
            <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton    _focus={{outline:"none"}}     color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
-              <Button    _focus={{outline:"none"}}   color='black' pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
+            <IconButton    _focus={{outline:"none"}}     color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button    _focus={{outline:"none"}}   color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
             </Flex>
           </Link>
            
@@ -320,14 +320,14 @@ useEffect(()=>{
 
               <Link href="https://github.com/vinaykumar2n/project_pharmeasy" isExternal>
                   <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}    color='black'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
-              <Button   _focus={{outline:"none"}}   color='black'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
+            <IconButton   _focus={{outline:"none"}}    color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
+              <Button   _focus={{outline:"none"}}   color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
            <Link href="https://bejewelled-fenglisu-95e50b.netlify.app/sagar%20and%20pravhat/navbarforhome" isExternal>
            <Flex bg={"#67dcfa"} borderRadius={4}>
-            <IconButton   _focus={{outline:"none"}}    color='black' colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
-              <Button  _focus={{outline:"none"}}    color='black' pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
+            <IconButton   _focus={{outline:"none"}}    color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
+              <Button  _focus={{outline:"none"}}    color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
             </Flex>
            </Link> 
            
