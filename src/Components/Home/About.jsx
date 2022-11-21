@@ -54,10 +54,8 @@ const About = () => {
                 </Hide>
               
                 <Text fontWeight='normal' fontSize='1.2rem' color={'black'} className={styles.info}>
-                    Frontend Developer with high level of problem solving skills.
-                    I have experience of 1200+ hours of coding and solved 100+ DSA questions.
-                    Frontend Developer with high level of problem solving skills.
-              
+                    Full Stack Web Developer with high level of problem solving skills,
+                     having experience of 1200+ hours of coding and solved 100+ DSA problems.
                 </Text>
             </div>
             <div className={styles.hire}>
