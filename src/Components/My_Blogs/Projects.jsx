@@ -93,13 +93,13 @@ useEffect(()=>{
           <Text fontSize={"large"}    >It was an group project , I was responsible for building the dashboard page , project section, calender section, responsivness of the dashboard page. </Text>
             
             <Flex gap={'30px'} mt={2}  >
-              <Link href='https://github.com/pravhatray/determined-wax-1018' isExternal={true}>
+              <Link href='https://github.com/pravhatray/determined-wax-1018' isExternal={true} _hover={{textDecorationLine:"none"}}>
                   <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton   _focus={{outline:"none"}}   color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
               <Button   _focus={{outline:"none"}}  color='white'  pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
-           <Link href="https://the-great-pravhatray-site.netlify.app/" isExternal>
+           <Link href="https://the-great-pravhatray-site.netlify.app/" isExternal _hover={{textDecorationLine:"none"}}>
             <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton    _focus={{outline:"none"}}  color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
               <Button   _focus={{outline:"none"}}  color='white' pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
@@ -180,13 +180,13 @@ useEffect(()=>{
           <Text fontSize={"large"}    >It was an individual project , whole website was built by me. </Text>
             
             <Flex gap={'30px'} mt={2}  >
-              <Link href='https://github.com/pravhatray/outlook_India' isExternal={true}>
+              <Link href='https://github.com/pravhatray/outlook_India' isExternal={true} _hover={{textDecorationLine:"none"}}>
                   <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton   _focus={{outline:"none"}}   color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
               <Button   _focus={{outline:"none"}}  color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
-           <Link href="https://indialookout.vercel.app/?q=" isExternal>
+           <Link href="https://indialookout.vercel.app/?q=" isExternal _hover={{textDecorationLine:"none"}}>
             <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton    _focus={{outline:"none"}}  color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
               <Button   _focus={{outline:"none"}}  color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live </Button>
@@ -249,13 +249,13 @@ useEffect(()=>{
             
             <Flex gap={'30px'} mt={2}  >
 
-              <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal>
+              <Link href="https://github.com/amitchouhan948/Unsplash-Project_U3" isExternal _hover={{textDecorationLine:"none"}}>
                    <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton    _focus={{outline:"none"}}     color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
               <Button   _focus={{outline:"none"}}    color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
-          <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal>
+          <Link href="https://shimmering-donut-1d044b.netlify.app/" isExternal _hover={{textDecorationLine:"none"}}>
            <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton    _focus={{outline:"none"}}     color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
               <Button    _focus={{outline:"none"}}   color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
@@ -318,13 +318,13 @@ useEffect(()=>{
             
             <Flex gap={'30px'} mt={2}  >
 
-              <Link href="https://github.com/vinaykumar2n/project_pharmeasy" isExternal>
+              <Link href="https://github.com/vinaykumar2n/project_pharmeasy" isExternal _hover={{textDecorationLine:"none"}}>
                   <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton   _focus={{outline:"none"}}    color='white'   colorScheme='#67dcfa'  size='md'  icon={<FaGithub/>} />
               <Button   _focus={{outline:"none"}}   color='white'   pl={"0px"} colorScheme='#67dcfa' > Source Code  </Button>
             </Flex>
               </Link>
-           <Link href="https://bejewelled-fenglisu-95e50b.netlify.app/sagar%20and%20pravhat/navbarforhome" isExternal>
+           <Link href="https://bejewelled-fenglisu-95e50b.netlify.app/sagar%20and%20pravhat/navbarforhome" isExternal _hover={{textDecorationLine:"none"}}>
            <Flex bg={"#67dcfa"} borderRadius={4}>
             <IconButton   _focus={{outline:"none"}}    color='white'  colorScheme='#67dcfa'  size='md'  icon={<FaLink/>} />
               <Button  _focus={{outline:"none"}}    color='white'  pl={"0px"} colorScheme='#67dcfa'  > Live</Button>
