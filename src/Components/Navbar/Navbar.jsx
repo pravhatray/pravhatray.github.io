@@ -8,7 +8,7 @@ import {
 import { FaSun, FaMoon } from "react-icons/fa"
 import { Link } from "react-scroll"
 import Sidebar from './Sidebar'
-import Resume from "../Home/Image/Pravhat_Ray_Resume.pdf"
+import Resume from "../Home/Image/Pravhat Ray-Resume.pdf"
 
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode()

@@ -4,7 +4,7 @@ import Typical from "react-typical"
 import {Box, Button, Hide, Show, SimpleGrid, Text} from "@chakra-ui/react"
 import { IconButton } from "@chakra-ui/react"
 import myImg from "./Image/Prav_img.jpeg"
-import Resume from "./Image/Pravhat_Ray_Resume.pdf"
+import Resume from "./Image/Pravhat Ray-Resume.pdf"
 import { FaGithub,FaLinkedin} from "react-icons/fa"
 
 import {motion} from "framer-motion"
@@ -13,8 +13,7 @@ import Icons from './Icons'
 const About = () => {
   return (
     <>
-   
- 
+
     <SimpleGrid columns={[1,1,1,2]} name='Navbar' mb={'5%'} className={styles.intro}>
     <Show below='lg'>
 
@@ -54,8 +53,9 @@ const About = () => {
                 </Hide>
               
                 <Text fontWeight='normal' fontSize='1.2rem' color={'black'} className={styles.info}>
-                    Full Stack Web Developer with high level of problem solving skills,
-                     having experience of 1200+ hours of coding and solved 100+ DSA problems.
+                Dedicated and efficient full stack web developer with 1200+ hours of
+coding and solved 100+ numbers of DSA questions, with good problem solving skills. Seeking to further improve my skills as the company's
+future full stack web developer.
                 </Text>
             </div>
             <div className={styles.hire}>

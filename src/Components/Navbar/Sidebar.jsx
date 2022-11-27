@@ -21,7 +21,7 @@ import { HamburgerIcon, EmailIcon } from '@chakra-ui/icons'
 import { Link } from 'react-scroll'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import styles from "./Side.module.css";
-import Resume from "../Home/Image/Pravhat_Ray_Resume.pdf"
+import Resume from "../Home/Image/Pravhat Ray-Resume.pdf"
 
 
 
